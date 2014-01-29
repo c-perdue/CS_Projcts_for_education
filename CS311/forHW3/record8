@@ -1,0 +1,46 @@
+Script started on Tue 22 Oct 2013 12:15:05 AM PDT
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ g++ llist.h slist.h
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ g++ llist.cpp slist.cpp oopClient.cpp
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ ./a.out
+
+[1, 2, 3, 4, 5, 6]
+
+
+***Deleting Node Number***: 1
+***Deleting Node Number***: 2
+***Deleting Node Number***: 3
+***Deleting Node Number***: 4
+***Deleting Node Number***: 5
+***Deleting Node Number***: 6
+List destroyed.
+
+[1, 2, 3, 4, 5]
+
+[1, 2, 3, 4, 5]
+
+[7, 8, 9, 10]
+
+[1, 2, 3, 4, 5]
+
+[1, 2, 3, 4]
+
+[1, 2, 3, 4, 5]
+
+
+***Deleting Node Number***: 1
+***Deleting Node Number***: 2
+***Deleting Node Number***: 3
+***Deleting Node Number***: 4
+***Deleting Node Number***: 5
+List destroyed.
+
+
+***Deleting Node Number***: 1
+***Deleting Node Number***: 2
+***Deleting Node Number***: 3
+***Deleting Node Number***: 4
+List destroyed.
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ exit
+exit
+
+Script done on Tue 22 Oct 2013 12:15:53 AM PDT

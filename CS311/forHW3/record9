@@ -1,0 +1,67 @@
+Script started on Tue 22 Oct 2013 12:16:04 AM PDT
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ exit./a.outg++ llist.cpp slist.cpp oopClient.cpp[18Ph slist.h
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ g++ llist.h slist.hexit[K./a.outg++ llist.cpp slist.cpp oopClient.cpp[K[K[K[K[K[K[K[K[K[K[K[K[KexCredit.cpp
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ ./a.out
+
+----------------------------------------------------------
+-                       Extra Credit!                    -
+----------------------------------------------------------
+
+Testing L3 empty and L4 empty...
+***Warning***: Both lists are empty.
+They are equal!
+
+Testing L3 is empty and L4 has 2 elements...
+They do NOT equal each other!
+
+Testing L3 has 2 elements and L4 is empty...
+They do NOT equal each other!
+
+Testing L3 has 1,2,3 and L4 has 1,2,3...
+They are equal!
+
+Testing L3 has 1,2,3 and L4 has 1,2...
+They do NOT equal each other!
+
+Testing L3 has 1,2,3 and L4 has 1,2,3,4...
+They do NOT equal each other!
+
+Testing L3 has 1,2,3 and L4 has 1,2,4...
+They do NOT equal each other!
+
+
+----------------------------------------------------------
+-                 Copy Constructor tests                 -
+----------------------------------------------------------
+
+Testing L5 created using L4...
+They are equal!
+
+Clearing L5...
+This list is empty, nothing to display.
+
+Testing L6 created using empty list L5...
+***Warning***: Both lists are empty.
+They are equal!
+
+
+List destroyed.
+
+
+List destroyed.
+
+
+***Deleting Node Number***: 1
+***Deleting Node Number***: 2
+***Deleting Node Number***: 4
+List destroyed.
+
+
+***Deleting Node Number***: 1
+***Deleting Node Number***: 2
+***Deleting Node Number***: 3
+List destroyed.
+]0;wendl001@empress:~/cs311/hw3[wendl001@empress hw3]$ exit
+exit
+
+Script done on Tue 22 Oct 2013 12:16:31 AM PDT
