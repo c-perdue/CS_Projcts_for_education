@@ -1,0 +1,41 @@
+Script started on Thu 12 Sep 2013 03:00:04 AM PDT
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ g++ client1.cpp stack.cpp
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 34+
+
+Answer: 7
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 345+*
+
+Answer: 27
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 722+-
+
+Answer: 3
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 34+56++
+
+Answer: 18
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 12+34*45+-+
+
+Answer: 6
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 1234567891234
+***Stack Overflow*** : Ending program.
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: +
+***Stack Underflow*** : Ending program.
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 3+
+***Stack Underflow*** : Ending program.
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 3#
+***Invalid Item*** : Ending program.
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ ./a.out
+type a postfix expression: 2345+
+***Incomplete Expression*** : Ending program.
+]0;wendl001@empress:~/cs311[wendl001@empress cs311]$ exit
+exit
+
+Script done on Thu 12 Sep 2013 03:03:21 AM PDT

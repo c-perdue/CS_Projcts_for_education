@@ -1,0 +1,138 @@
+Script started on Tue 26 Nov 2013 01:42:40 AM PST
+]0;wendl001@empress:~/cs311/hw7[wendl001@empress hw7]$ g++ *.h
+]0;wendl001@empress:~/cs311/hw7[wendl001@empress hw7]$ g++ *.cpp
+]0;wendl001@empress:~/cs311/hw7[wendl001@empress hw7]$ ./a.out
+
+A 2 --->[B, F] Visit# 0
+
+B 2 --->[C, G] Visit# 0
+
+C 1 --->[H] Visit# 0
+
+E 0 ---> Visit# 0
+
+F 2 --->[I, E] Visit# 0
+
+G 0 ---> Visit# 0
+
+H 2 --->[G, I] Visit# 0
+
+I 3 --->[A, G, E] Visit# 0
+
+Popped 'A' from Stack.
+Adding.... [B, F]
+Current stack:
+--------------
+B
+F
+
+Popped 'B' from Stack.
+Adding.... [C, G]
+Current stack:
+--------------
+C
+G
+F
+
+Popped 'C' from Stack.
+Adding.... [H]
+Current stack:
+--------------
+H
+G
+F
+
+Popped 'H' from Stack.
+Adding.... [G, I]
+Current stack:
+--------------
+G
+I
+G
+F
+
+Popped 'G' from Stack.
+Adding.... This list is empty, nothing to display.
+Current stack:
+--------------
+I
+G
+F
+
+Popped 'I' from Stack.
+Adding.... [A, G, E]
+Current stack:
+--------------
+A
+G
+E
+G
+F
+
+Popped 'A' from Stack.
+'A' is already marked
+Current stack:
+--------------
+G
+E
+G
+F
+
+Popped 'G' from Stack.
+'G' is already marked
+Current stack:
+--------------
+E
+G
+F
+
+Popped 'E' from Stack.
+Adding.... This list is empty, nothing to display.
+Current stack:
+--------------
+G
+F
+
+Popped 'G' from Stack.
+'G' is already marked
+Current stack:
+--------------
+F
+
+Popped 'F' from Stack.
+Adding.... [I, E]
+Current stack:
+--------------
+I
+E
+
+Popped 'I' from Stack.
+'I' is already marked
+Current stack:
+--------------
+E
+
+Popped 'E' from Stack.
+'E' is already marked
+Current stack:
+--------------
+.[ empty ].
+A 2 --->[B, F] Visit# 1
+
+B 2 --->[C, G] Visit# 2
+
+C 1 --->[H] Visit# 3
+
+E 0 ---> Visit# 9
+
+F 2 --->[I, E] Visit# 11
+
+G 0 ---> Visit# 5
+
+H 2 --->[G, I] Visit# 4
+
+I 3 --->[A, G, E] Visit# 6
+]0;wendl001@empress:~/cs311/hw7[wendl001@empress hw7]$ exit
+exit
+
+Script done on Tue 26 Nov 2013 01:43:07 AM PST
