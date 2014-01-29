@@ -1,7 +1,0 @@
-
-.o files are compiled versions of cpp files.
-
-To compile your HW6,
-
-g++ hw6cllient.cpp llist.o hw3p3.o
-
