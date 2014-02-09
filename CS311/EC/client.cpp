@@ -3,12 +3,25 @@
 // =========================================================
 
 //EC 1 Print queue
-//Your name: Christopher Wendling
+//Your name: Christopher Wendling and Chase Perdue
 //Complier:  g++
 //File type: printer client file
 
 //===========================================================
 #include "printer.h"
+
+
+/*			--Stolen from Chris' fork 2/8/2014 at 5:15PM--
+need to add:
+x struct with ID, state
+x make sure array size is 20ish
+- randomize priority from 1-50
+- add new array or vector of jobs to be added to print queue
+- randomly select one process from our job queue/table to add to print queue.
+- fix display function to display the PCB table instead of queue
+
+*/
+
 
 int main()
 {
